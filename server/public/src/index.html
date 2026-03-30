@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../font/stylesheet.css" rel="stylesheet">
+        <link href="../src/index.css" rel="stylesheet">
+        <title>designer</title>
+    </head>
+    <body>
+        <!-- popular product categories container -->
+        <div class="content-container"></div>
+
+        <!-- the product display template -->
+        <template class="display-template">
+            <div class="display-header">
+                <div class="header-container">
+                </div>
+                <a class="viewbtn">view all</a>
+            </div>
+            <div class="display-products"></div>
+        </template>
+
+        <!-- category card template -->
+        <template class="categoryCard-template">
+            <div class="categoryCard-container">
+                <div class="card-description"></div>
+                <div class="card-image"></div>
+            </div>
+        </template>
+
+        <!-- product group card -->
+        <template class="group-template">
+            <div class="group-container">
+                <div class="group-header">
+                    <div class="group-title">
+                        <p class="title"></p>
+                        <a class="viewbtn">view all</a>
+                    </div>
+                    <div class="group-header-content">
+                        <div class="add-card"></div>
+                        <div class="category-section"></div>
+                    </div>
+                </div>
+                <div class="group-products">
+                    <div class="display-controllers">
+                        <div class="disp-button" data-mover="-1"><p>prev</p></div>
+                        <div class="disp-button" data-mover="+1"><p>next</p></div>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <!-- the product template -->
+        
+        <!-- the navigation displayer template -->
+        <template class="navDisplay-template">
+            <div class="content">
+                <div class="navigation-displayer">
+                    <div class="navigation-menu">
+                        <div data-activeMenu="" class="navigation-container"></div>
+                        <a class="viewbtn">View all</a>
+                    </div>
+                    <div class="product-container"></div>
+                </div>
+            </div>
+        </template>
+        <script type="module" src="../src/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "name":"category-list",
+    "category-list": [
+        {"name":"iPhones(IOS)", "items":74, "image":"../images/prod1.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Androids", "items":35, "image":"../images/prod2.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Xiamo", "items":52,"image":"../images/link12.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Gaming", "items":9,"image":"../images/link14.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"5G Support", "items":12,"image":"../images/link11.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Accessories", "items":29,"image":"../images/link13.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Apple Tablets", "items":8,"image":"../images/link27.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Samsung Tablets", "items":14,"image":"../images/link26.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Smartphones Charger", "items":33,"image":"../images/link24.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"eReader", "items":5,"image":"../images/link25.png", "type":"sub", "parent":"Phones & Tablets"},
+        {"name":"Phones & Tablets", "image":"", "type":"main", "parent":""},
+        {"name":"Shoes & Clothes", "image":"", "type":"main", "parent":""},
+        {"name":"Watches", "image":"", "type":"main", "parent":""},
+        {"name":"Rentals", "image":"", "type":"main", "parent":""},
+        {"name":"Cameras", "image":"", "type":"main", "parent":""}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name":"add card data",
+    "addCard-data": [
+        {"title":"redmi note 12 Pro+ 5g", "subtitle":"Rise to the challenge","poster":"../images/redmiposter.png", "group":"Phones & Tablets"},
+        {"title":"redmi note 12 Pro+ 5g", "subtitle":"Rise to the challenge","poster":"../images/redmiposter.png", "group":"Shoes & Clothes"},
+        {"title":"redmi note 12 Pro+ 5g", "subtitle":"Rise to the challenge","poster":"../images/redmiposter.png", "group":"Watches"},
+        {"title":"redmi note 12 Pro+ 5g", "subtitle":"Rise to the challenge","poster":"../images/redmiposter.png", "group":"Rentals"},
+        {"title":"redmi note 12 Pro+ 5g", "subtitle":"Rise to the challenge","poster":"../images/redmiposter.png", "group":"Cameras"}
+    ]
+}

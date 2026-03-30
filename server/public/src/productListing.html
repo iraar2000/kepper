@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../font/stylesheet.css" rel="stylesheet">
+        <link href="../src/index.css" rel="stylesheet">
+        <link href="../src/productListing.css" rel="stylesheet">
+        <title>Designer</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="categProp-wrapper">
+                <div class="categProp-container">
+                    <!-- categories selection section -->
+                    <div class="categProp-card category">
+                        <div class="categProp-listing">
+                            <p class="categProp-title">CATEGORIES</p>
+                            <div class="selected-listing"></div>
+                        </div>
+                        <div class="category-listing categProp-listing">
+                            <p class="categProp-SubTitle categProp-topSubtitle"></p>
+                            <div class="categProp-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- properties filtering section -->
+                    <div class="categProp-card properties">
+                        <div class="properties-setting categProp-listing">    
+                            <P class="categProp-title">PROPERTIES</P>
+                            <div class="setting-list"></div>
+                        </div>
+                        <div class="property-listing">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- product listing container -->
+            <div class="product-container"></div>
+        </div>
+        <script type="module" src="../src/productListing.js"></script>
+    </body>
+</html>
